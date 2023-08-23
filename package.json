@@ -1,0 +1,18 @@
+{
+  "name": "chat-api",
+  "version": "1.0.0",
+  "description": "API feita para chat utilizando mongodb, express e node",
+  "main": "api.js",
+  "scripts": {
+    "start": "node ./src/bin/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongodb": "^5.7.0"
+  }
+}
